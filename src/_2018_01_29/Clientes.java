@@ -9,7 +9,7 @@ package _2018_01_29;
  *
  * @author user
  */
-public class Clientes extends Personas{
+public class Clientes extends Persona{
     private Integer deuda = 0;
 
     public Clientes(Integer id, String nombre, Integer edad, Integer deuda) {

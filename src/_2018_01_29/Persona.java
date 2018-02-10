@@ -6,12 +6,12 @@
 package _2018_01_29;
 
 
-public class Personas {
+public class Persona {
     private Integer id = 0;
     private String nombre = "";
     private Integer edad = 0;
     
-    public Personas(Integer id,String nombre,Integer edad){
+    public Persona(Integer id,String nombre,Integer edad){
         this.edad=edad;
         this.id = id;
         this.nombre = nombre;
